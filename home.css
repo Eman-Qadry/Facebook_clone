@@ -1,0 +1,350 @@
+
+body {
+    margin: 0;
+    padding: 0;
+   
+    background-color: #f8f9fb;
+    font-family: Arial, sans-serif;
+}
+/* header style*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+border: 10px solid #f8f9fb;
+    padding: 10px 20px;
+    height: 50px;
+   
+}
+
+
+.logoAndSearch {
+    display: flex;
+    align-items: center;
+}
+
+.logoAndSearch .image1 {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logoAndSearch .search {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fb;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #B0B3B8;
+}
+
+.logoAndSearch .searchimg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.logoAndSearch p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* middle navigation bar */
+.middlenavbar {
+    display: flex;
+}
+
+.middlenavbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.middlenavbar a{
+    padding:4px 20px;
+    border-radius: 5px;
+}
+.middlenavbar a:hover{
+ background-color: #b9bcc0;
+}
+.middlenavbar .image2 {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+}
+
+/* right navigation bar */
+.rightnavbar {
+    display: flex;
+}
+
+.rightnavbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rightnavbar .image2 {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.rightnavbar .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contentBody{
+    background-color: #f8f9fb;
+}
+.sidebar {
+    width: 20%;
+    height: 100vh; 
+    position: fixed; 
+    top: 60px;
+    left: 0;
+    overflow-y: auto;
+    padding: 12px;
+}
+.rightSidebar {
+    width: 20%;
+    height: 100vh; /* Full Height */
+    position: fixed; 
+    top: 60px;
+    right: 0;
+    overflow-y: auto;
+    padding: 12px;
+}
+.sidebarelement {
+    height: 50px; 
+    line-height: 40px; 
+    
+    margin-bottom: 10px;
+}
+.rightSidebar .Ads{
+     
+    line-height: 70px; 
+    overflow: hidden; 
+    margin-bottom: 10px;
+}
+.rightSidebar .Ad img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.rightSidebar .friendRequests,.rightSidebar .contacts{
+    line-height: 50px; 
+    overflow: hidden; 
+    margin: 10px;
+}
+button{
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.confirmButton{
+    background-color: #1877f2;
+    color: white;
+}
+
+.deleteButton {
+    background-color: #e4e6eb;
+    color: black;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Make it round */
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add space between the image and text */
+}
+
+
+.username {
+    font-size: 16px;
+    color: #333;
+    display: inline-block; 
+}
+
+.timeline{
+width: 50%;
+
+position: fixed;
+left: 25%;
+overflow-y: auto;
+}
+.profileandpost {
+    display: flex;
+    align-items: center;
+}
+
+.profileandpost .image1 {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.profileandpost .post {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fb;;
+    border-radius: 10px;
+    margin-top: 5px ;
+    margin-left: 5px ;
+    color: #B0B3B8;
+    width:70%;
+    
+}
+.profileandpost .post  p{
+    margin-left: 10px;;
+}
+.createPost{
+    
+    background-color: white;
+    border-radius: 10px;
+}
+.profileandpost .searchimg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.profileandpost span {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.videoAndOudio ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.videoAndOudio a{
+    padding:4px 20px;
+    border-radius: 5px;
+}
+.videoAndOudio a:hover{
+ background-color: #b9bcc0;
+}
+.videoAndOudio .divimage .image2 {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+}
+.storycontainer{
+    padding: 10px;
+}
+.create-story,.user-story{
+   display: inline-block;
+        position: relative;
+        width: 160px;
+        height: 220px;
+        border-radius: 10px;
+        overflow: hidden;
+        cursor: pointer;
+        border: 5px solid rgba(0, 0, 0, 0.1);
+        
+}
+.storyimg {
+    width: 100%;
+    height: 55%;
+    object-fit:cover;
+    
+}
+.addbutton {
+ 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  
+}
+.plus{
+ 
+  
+    font-size: 50px;
+    color: #1877f2;
+    width:50px;
+    margin:auto
+}
+.word {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+.user-story  p{
+    position: absolute;
+    bottom: 0;
+    left:5px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.storyimage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.userimg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1877f2;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.post-container{
+    width:100%;
+    background-color: white;
+    height:500px;
+    margin-bottom: 50px;
+}
+.container{
+    padding:40px;
+}
+.userimg2 img{
+   position: relative;
+   display: inline-block;
+   
+    width: 40px;
+    height: 40px;
+    border: 2px solid #1877f2;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.container a{
+    padding-top:5px;
+}
+.date{
+    color:gray;
+}
+.data{
+width:90%;
+padding :10px 0;
+}
+.contentdata{
+    padding: 0 20px;
+}
+.dataimg{
+    width:90%;
+  
+    margin:auto;
+}

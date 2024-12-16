@@ -179,7 +179,7 @@ button{
 
 .timeline{
 width: 50%;
-
+height:100vh;
 position: fixed;
 left: 25%;
 overflow-y: auto;
@@ -312,8 +312,8 @@ overflow-y: auto;
 .post-container{
     width:100%;
     background-color: white;
-    height:500px;
-    margin-bottom: 50px;
+   
+    padding-bottom: 50px;
 }
 .container{
     padding:40px;
@@ -341,10 +341,11 @@ width:90%;
 padding :10px 0;
 }
 .contentdata{
-    padding: 0 20px;
+    padding:  20px;
+    min-height: 100px;
 }
 .dataimg{
     width:90%;
-  
+  height:500px;
     margin:auto;
 }
